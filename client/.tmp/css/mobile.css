@@ -13,30 +13,31 @@
 html {
   height: 100%;
 }
+
 html,
 button,
 input,
 select,
 textarea {
-    color: #222;
+  color: #222;
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
-    height: 100%;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100%;
 }
 
 a {
-    color: #00e;
+  color: #00e;
 }
 
 a:visited {
-    color: #551a8b;
+  color: #551a8b;
 }
 
 a:hover {
-    color: #06e;
+  color: #06e;
 }
 
 /*
@@ -44,7 +45,7 @@ a:hover {
  */
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -52,9 +53,9 @@ img {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -62,29 +63,12 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -93,25 +77,25 @@ textarea {
 /* Prevent callout */
 
 .nocallout {
-    -webkit-touch-callout: none;
+  -webkit-touch-callout: none;
 }
 
 .pressed {
-    background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* A hack for HTML5 contenteditable attribute on mobile */
 
 textarea[contenteditable] {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 /* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
    they have been set as display: none */
 
 .gifhidden {
-    position: absolute;
-    left: -100%;
+  position: absolute;
+  left: -100%;
 }
 
 /*
@@ -119,18 +103,18 @@ textarea[contenteditable] {
  */
 
 .ir {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 0;
-    direction: ltr;
-    display: block;
-    overflow: hidden;
-    text-align: left;
-    text-indent: -999em;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
+  direction: ltr;
+  display: block;
+  overflow: hidden;
+  text-align: left;
+  text-indent: -999em;
 }
 
 .ir br {
-    display: none;
+  display: none;
 }
 
 /*
@@ -138,8 +122,8 @@ textarea[contenteditable] {
  */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 /*
@@ -147,14 +131,14 @@ textarea[contenteditable] {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /*
@@ -164,12 +148,12 @@ textarea[contenteditable] {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 /*
@@ -177,7 +161,7 @@ textarea[contenteditable] {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /**
@@ -187,12 +171,12 @@ textarea[contenteditable] {
 
 .clearfix:before,
 .clearfix:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -202,10 +186,10 @@ textarea[contenteditable] {
    ========================================================================== */
 
 @media only screen and (min-width: 800px) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }

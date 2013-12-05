@@ -16,10 +16,7 @@
 #main_page {
   height: 100%;
   background-image: url("../img/bg.jpg");
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  background-size: cover;
 }
 
 #main_page .row {
@@ -95,10 +92,7 @@ h6 {
 .page_view {
   height: 100%;
   background-image: url("../img/bg.jpg");
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  background-size: cover;
 }
 
 .navbar {
@@ -170,24 +164,20 @@ h6 {
 
 [data-effeckt-page].slide-from-left {
   -webkit-animation: slideFromLeft 10ms forwards ease-in-out;
-       -o-animation: slideFromLeft 10ms forwards ease-in-out;
-          animation: slideFromLeft 10ms forwards ease-in-out;
+  animation: slideFromLeft 10ms forwards ease-in-out;
 }
 
 [data-effeckt-page].slide-to-left {
   -webkit-animation: slideToLeft 10ms forwards ease-in-out;
-       -o-animation: slideToLeft 10ms forwards ease-in-out;
-          animation: slideToLeft 10ms forwards ease-in-out;
+  animation: slideToLeft 10ms forwards ease-in-out;
 }
 
 [data-effeckt-page].slide-from-right {
   -webkit-animation: slideFromRight 10ms forwards ease-in-out;
-       -o-animation: slideFromRight 10ms forwards ease-in-out;
-          animation: slideFromRight 10ms forwards ease-in-out;
+  animation: slideFromRight 10ms forwards ease-in-out;
 }
 
 [data-effeckt-page].slide-to-right {
   -webkit-animation: slideToRight 10ms forwards ease-in-out;
-       -o-animation: slideToRight 10ms forwards ease-in-out;
-          animation: slideToRight 10ms forwards ease-in-out;
+  animation: slideToRight 10ms forwards ease-in-out;
 }
